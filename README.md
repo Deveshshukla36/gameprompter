@@ -1,7 +1,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/84322c50-98b7-4990-ba4e-2545accf5d91
+**URL**: https://gameprompter.lovable.app/
 
 ## How can I edit this code?
 
