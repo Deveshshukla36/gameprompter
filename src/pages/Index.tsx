@@ -19,15 +19,15 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col overflow-hidden bg-arcade-dark">
+    <div className="min-h-screen flex flex-col overflow-hidden bg-minecraft-sky">
       <div className="flex-1 container mx-auto px-4 py-8 max-w-6xl">
         <Header />
         
         <div className={`mt-16 mb-12 text-center transition-opacity duration-700 ${loaded ? 'opacity-100' : 'opacity-0'}`}>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-minecraft font-bold mb-6">
             <span className="gradient-text">Create Games With Just a Prompt</span>
           </h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+          <p className="text-base text-foreground max-w-2xl mx-auto font-minecraft">
             Type a prompt, get a playable game instantly. No coding required.
           </p>
         </div>
@@ -60,8 +60,8 @@ const Index = () => {
         </div>
       </div>
       
-      <footer className="py-6 border-t border-gray-800 text-center text-sm text-gray-500">
-        <p>© 2025 Engine Arcade. All rights reserved.</p>
+      <footer className="py-6 border-t-4 border-black text-center text-xs text-foreground font-minecraft minecraft-card">
+        <p>© 2025 Game Promoter. All rights reserved.</p>
       </footer>
     </div>
   );

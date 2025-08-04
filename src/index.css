@@ -4,91 +4,90 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 195 100% 85%;
+    --foreground: 0 0% 5%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 195 90% 90%;
+    --card-foreground: 0 0% 5%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 195 90% 90%;
+    --popover-foreground: 0 0% 5%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 195 80% 70%;
+    --secondary-foreground: 0 0% 5%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 195 60% 75%;
+    --muted-foreground: 0 0% 20%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 25 100% 50%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 195 50% 60%;
+    --input: 195 50% 60%;
+    --ring: 0 0% 0%;
 
-    --radius: 0.5rem;
+    --radius: 0px;
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 195 90% 88%;
+    --sidebar-foreground: 0 0% 10%;
+    --sidebar-primary: 0 0% 0%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 195 70% 80%;
+    --sidebar-accent-foreground: 0 0% 10%;
+    --sidebar-border: 195 50% 65%;
+    --sidebar-ring: 0 0% 0%;
+
+    /* Minecraft Sky Colors */
+    --minecraft-sky: 195 100% 85%;
+    --minecraft-cloud: 0 0% 100%;
+    --minecraft-grass: 100 50% 40%;
+    --minecraft-dirt: 30 40% 35%;
+    --minecraft-stone: 0 0% 50%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 220 40% 15%;
+    --foreground: 0 0% 95%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 220 40% 20%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 220 40% 20%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 220 30% 25%;
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 220 30% 25%;
+    --muted-foreground: 0 0% 70%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 25 100% 50%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
+    --border: 220 30% 30%;
+    --input: 220 30% 30%;
+    --ring: 0 0% 100%;
 
-  /* Custom Fonts */
-  @font-face {
-    font-family: 'Arcade';
-    src: url('/fonts/arcade.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+    --sidebar-background: 220 40% 12%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 0 0% 100%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 220 30% 20%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 220 30% 25%;
+    --sidebar-ring: 0 0% 100%;
   }
 }
 
@@ -98,21 +97,73 @@
   }
 
   body {
-    @apply bg-arcade-dark text-white;
+    @apply bg-minecraft-sky text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
+    font-family: 'Press Start 2P', monospace;
+    background: linear-gradient(180deg, hsl(195 100% 85%) 0%, hsl(195 80% 75%) 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    position: relative;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+      radial-gradient(ellipse 120px 40px at 200px 100px, hsl(var(--minecraft-cloud)) 40%, transparent 40%),
+      radial-gradient(ellipse 80px 30px at 150px 120px, hsl(var(--minecraft-cloud)) 40%, transparent 40%),
+      radial-gradient(ellipse 100px 35px at 350px 80px, hsl(var(--minecraft-cloud)) 40%, transparent 40%),
+      radial-gradient(ellipse 90px 25px at 300px 110px, hsl(var(--minecraft-cloud)) 40%, transparent 40%),
+      radial-gradient(ellipse 110px 45px at 600px 90px, hsl(var(--minecraft-cloud)) 40%, transparent 40%),
+      radial-gradient(ellipse 85px 30px at 550px 120px, hsl(var(--minecraft-cloud)) 40%, transparent 40%),
+      radial-gradient(ellipse 95px 35px at 800px 70px, hsl(var(--minecraft-cloud)) 40%, transparent 40%),
+      radial-gradient(ellipse 70px 25px at 750px 100px, hsl(var(--minecraft-cloud)) 40%, transparent 40%);
+    opacity: 0.8;
+    pointer-events: none;
+    z-index: -1;
+    animation: float-clouds 20s ease-in-out infinite;
   }
 }
 
+.minecraft-button {
+  @apply bg-minecraft-stone border-4 border-black text-foreground font-bold px-4 py-2 text-sm;
+  image-rendering: pixelated;
+  box-shadow: 4px 4px 0px #000;
+  transition: all 0.1s ease;
+}
+
+.minecraft-button:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #000;
+}
+
+.minecraft-button:active {
+  transform: translate(4px, 4px);
+  box-shadow: none;
+}
+
+.minecraft-card {
+  @apply bg-card border-4 border-black;
+  image-rendering: pixelated;
+  box-shadow: 8px 8px 0px #000;
+}
+
 .gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-arcade-purple to-arcade-pink;
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-minecraft-grass to-accent;
 }
 
 .terminal {
-  background-color: #11141F;
-  border-radius: 8px;
+  background-color: hsl(var(--minecraft-stone));
+  border: 4px solid #000;
+  border-radius: 0;
   padding: 16px;
-  font-family: monospace;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  font-family: 'Press Start 2P', monospace;
+  box-shadow: 8px 8px 0px #000;
+  image-rendering: pixelated;
 }
 
 .terminal-header {
@@ -122,10 +173,11 @@
 }
 
 .terminal-button {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #000;
   margin-right: 6px;
+  image-rendering: pixelated;
 }
 
 .close-button {
@@ -142,12 +194,13 @@
 
 .cursor {
   display: inline-block;
-  width: 8px;
-  height: 15px;
-  background-color: #7B68EE;
+  width: 12px;
+  height: 18px;
+  background-color: hsl(var(--foreground));
   animation: cursor-blink 1s step-end infinite;
   margin-left: 2px;
   vertical-align: middle;
+  image-rendering: pixelated;
 }
 
 /* Animations for page elements */

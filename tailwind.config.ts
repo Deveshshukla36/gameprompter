@@ -63,13 +63,16 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				arcade: {
-					dark: '#050A18',
-					purple: '#7B68EE',
-					pink: '#D946EF',
-					terminal: '#11141F',
-					gray: '#323848',
+				minecraft: {
+					sky: 'hsl(var(--minecraft-sky))',
+					cloud: 'hsl(var(--minecraft-cloud))',
+					grass: 'hsl(var(--minecraft-grass))',
+					dirt: 'hsl(var(--minecraft-dirt))',
+					stone: 'hsl(var(--minecraft-stone))',
 				}
+			},
+			fontFamily: {
+				'minecraft': ['Press Start 2P', 'monospace'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -104,6 +107,10 @@ export default {
 				'slide-up': {
 					'0%': { transform: 'translateY(20px)', opacity: '0' },
 					'100%': { transform: 'translateY(0)', opacity: '1' }
+				},
+				'float-clouds': {
+					'0%, 100%': { transform: 'translateX(0px)' },
+					'50%': { transform: 'translateX(20px)' }
 				}
 			},
 			animation: {
@@ -111,7 +118,8 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'cursor-blink': 'cursor-blink 1s step-end infinite',
 				'fade-in': 'fade-in 0.6s ease-out forwards',
-				'slide-up': 'slide-up 0.5s ease-out forwards'
+				'slide-up': 'slide-up 0.5s ease-out forwards',
+				'float-clouds': 'float-clouds 20s ease-in-out infinite'
 			}
 		}
 	},

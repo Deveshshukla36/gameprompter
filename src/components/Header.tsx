@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header className={`py-8 transition-opacity duration-700 ${loaded ? 'opacity-100' : 'opacity-0'}`}>
-      <h1 className="font-bold text-white text-3xl md:text-4xl tracking-widest text-center" style={{ fontFamily: 'Arial', letterSpacing: '0.2em' }}>
+      <h1 className="font-minecraft text-primary text-2xl md:text-3xl tracking-wider text-center">
         GAME PROMOTER
       </h1>
     </header>
